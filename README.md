@@ -95,3 +95,10 @@ When adding a new project to the listing, please copy and paste the template bel
 **Contributors**: [list of people involved], [Paul Scotti](https://github.com/PaulScotti), [Arman Kulkarni](https://github.com/kiacan), [Matan Mazor](https://github.com/matanmazor), [Eduard Klapwijk](https://github.com/eduardklap), [Alex Huth](https://github.com/alexhuth)\
 **Description of project**: In-browser 3D brain visualization of different brain atlases, parcellations and associated terms and variance components of the neuroimaging literature from [Neurosynth](http://neurosynth.org). This can be used as educational resource and potentially for researchers to evaluate functional and structural probabilities of selected brain regions. The [PyCortex](https://github.com/gallantlab/pycortex) software library is used for visualisation.\
 **How to get involved**: Click around that brain and send us some pull requests!
+
+
+### TMS-DTI bridge
+**Project url(s)**: https://github.com/KulikovaSofya/BrainStim\
+**Contributors**: [Sofya Kulikova](https://github.com/KulikovaSofya), Daniel Bullock \
+**Description of project**: With this python script you can estimate effects of TMS for a particular white matter fiber reconstructed from diffusion MRI data. Input data: T1-w image, FA map, reconstructed fibers in trk .format, estimated e-field in a mesh format. Output: estsimated stimulations effects at each point of the provided fibers\
+**How to get involved**: There is a number of points that should be improve including 1) building a Docker container for this project; 2) improving registration between TMS and diffusion MRI; 3) Adding a function that would run e-field calculations within a program (to calculate e-field in place and not to take it as an input); 4) making things work faster (yes, it's very slow now); 5) still problems with visualization. Please, feel free to contact if you would like to contribute to this project.
